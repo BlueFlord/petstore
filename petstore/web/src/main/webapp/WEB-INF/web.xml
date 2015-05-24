@@ -22,7 +22,7 @@
         <listener-class>com.alibaba.citrus.logconfig.LogConfiguratorListener</listener-class>
     </listener>
 
-    <!-- 装载/WEB-INF/webx.xml, /WEB-INF/webx-*.xml -->
+    <!-- 装载/WEB-INF/webx.xml, /WEB-INF/webx-*.xml 原理机制-->
     <listener>
         <listener-class>com.alibaba.citrus.webx.context.WebxContextLoaderListener</listener-class>
     </listener>
